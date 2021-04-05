@@ -6,5 +6,4 @@ This shader can running on moblie device with GL4ES. Currently ony Snapdragon de
 ![avatar](image/KUMA.jpg)  
 ## Open4Es-SEUS:
 ![avatar](image/SEUS.jpg)  
-### If you want to make video or share it to others
-### Please use the GitHub Link and state the Author.
+### If you want to make video or share it to others,please use the GitHub Link and state the Author.
