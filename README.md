@@ -1,5 +1,6 @@
 # Open4Es-Shader-Android
 This is a shader can running on **Minecraft Java Edition For Phone** project which uses [GL4ES](https://github.com/ptitSeb/gl4es). Such as [Pojavlauncher](https://github.com/PojavLauncherTeam) and [Mcinabox](https://github.com/AOF-Dev/MCinaBox). Currently only Snapdragon devices are supported.
+1.17 Support? Wait for the Optifine and Pojavlauncher creator update
 ## Open4Es-Chocapic:
 ![avatar](image/Chocapic.jpg)  
 ## Open4Es-KUMA(KUDA/LUMA):
