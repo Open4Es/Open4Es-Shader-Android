@@ -1,6 +1,8 @@
 option.Brightness= 亮度
 option.Lensflare =光晕
 option.ShadowMapping=实时阴影
+option.ShadowSamples=ShadowSamples
+screen.ShadowSettings=ShadowSettings
 screen.WavingSettings=晃动设置
 screen.WavingPlants=植物晃动
 screen.WavingLeaves=树叶晃动
