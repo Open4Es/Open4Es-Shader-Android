@@ -13,7 +13,7 @@ option.WavingLeaves=树叶晃动
 option.WavingLeavesSpeed=树叶晃动速度
 
 
-screen.Postprocessing=Postprocessing
+screen.Postprocessing=后期处理
 screen.ShadowSettings=阴影设置
 screen.WavingSettings=晃动设置
 screen.WavingPlants=植物晃动
