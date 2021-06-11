@@ -1,12 +1,20 @@
-option.Brightness= 亮度
-option.Lensflare =光晕
+option.Brightness=亮度
+option.Bloom=Bloom
+option.BloomQulaity=BloomQuality
+
+option.Lensflare=光晕
+
 option.ShadowMapping=实时阴影
 option.ShadowSamples=阴影采样
-screen.ShadowSettings=阴影设置
-screen.WavingSettings=晃动设置
-screen.WavingPlants=植物晃动
-screen.WavingLeaves=树叶晃动
+
 option.WavingPlants=植物晃动
 option.WavingPlantsSpeed=植物晃动速度
 option.WavingLeaves=树叶晃动
 option.WavingLeavesSpeed=树叶晃动速度
+
+
+screen.Postprocessing=Postprocessing
+screen.ShadowSettings=阴影设置
+screen.WavingSettings=晃动设置
+screen.WavingPlants=植物晃动
+screen.WavingLeaves=树叶晃动
