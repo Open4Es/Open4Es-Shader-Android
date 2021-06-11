@@ -1,6 +1,8 @@
 option.Brightness=Brightness
 option.Bloom=Bloom
 option.BloomQuality=BloomQuality
+option.ChromaticAberration=ChromaticAberration
+option.ChromaticAberrationQuality=ChromaticAberrationQuality
 
 option.ShadowMapping=ShadowMapping
 option.ShadowSamples=ShadowSamples
