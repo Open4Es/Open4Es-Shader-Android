@@ -1,6 +1,8 @@
 option.Brightness= Brightness
-option.ShadowMapping= ShadowMapping
+option.ShadowMapping=ShadowMapping
+option.ShadowSamples=ShadowSamples
 option.Lensflare = Lensflare
+screen.ShadowSettings=ShadowSettings
 screen.WavingSettings=WavingSettings
 screen.WavingPlants=WavingPlants
 screen.WavingLeaves=WavingLeaves
