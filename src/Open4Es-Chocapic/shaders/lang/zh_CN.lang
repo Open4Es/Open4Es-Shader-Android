@@ -1,6 +1,8 @@
 option.Brightness=亮度
 option.Bloom=泛光
 option.BloomQulaity=泛光强度
+option.ChromaticAberration=ChromaticAberration
+option.ChromaticAberrationQuality=ChromaticAberrationQuality
 
 option.Lensflare=光晕
 
