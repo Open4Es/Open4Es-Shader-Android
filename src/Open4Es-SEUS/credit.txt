@@ -1,5 +1,0 @@
-# Credit 
-### A big special to pojavlauncher author's help
-#### Origin code based on Chocapic 13 Sildurs shader & CSDN shader tutorial
-## Made by ENDERMANYK & ShulkerSakura
-### https://github.com/Open4Es/
