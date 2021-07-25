@@ -1,0 +1,6 @@
+# Credit 
+### A big special to pojavlauncher author's help
+#### Origin code based on Chocapic 13 Sildurs shader & CSDN shader tutorial
+## Made by ENDERMANYK & ShulkerSakura
+##Thanks for the jebbyk's code contribution
+### https://github.com/Open4Es/Open4Es-Shader-Android
