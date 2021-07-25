@@ -1,5 +1,6 @@
 option.ShadowMapping=ShadowMapping
 option.ShadowSamples=ShadowSamples
+option.Brightness=Brightness
 option.Bloom=Bloom
 option.BloomQuality=BloomQuality
 option.ChromaticAberration=ChromaticAberration
@@ -11,6 +12,8 @@ option.WavingPlants=WavingPlants
 option.WavingPlantsSpeed=WavingPlantsSpeed
 option.WavingLeaves=WavingLeaves
 option.WavingLeavesSpeed=WavingLeavesSpeed
+option.WaterWave=WaterWave
+option.UnderWaterCaustics=UnderWaterCaustics
 
 screen.WorldColor=WorldColor
 screen.Postprocessing=PostProcessing
@@ -18,3 +21,4 @@ screen.ShadowSettings=ShadowSettings
 screen.WavingSettings=WavingSettings
 screen.WavingPlants=WavingPlants
 screen.WavingLeaves=WavingLeaves
+screen.WavingWater=WavingWater
