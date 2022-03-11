@@ -6,15 +6,3 @@ Due to misleading and copyright name stuff, there's no way to update the branche
 ### If you want to make video or share it to others, please use the GitHub Link and state the Author.
 # Contribution:
 Contribution is welcome, only a piece of code can still make the shader beautiful :)
-
-# Installation:
-
-# Android:
-[![img](https://img.youtube.com/vi/-pnIYVeyAqE/0.jpg)](https://www.youtube.com/watch?v=-pnIYVeyAqE)
-
-
-# iOS:
-According to Pojavlauncher developer [khanhduytran0](https://github.com/khanhduytran0), this version also works on his iPhone
-[![img](https://img.youtube.com/vi/JbZPIcBQooE/0.jpg)](https://www.youtube.com/watch?v=JbZPIcBQooE)
-
-
