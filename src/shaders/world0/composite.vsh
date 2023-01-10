@@ -3,13 +3,7 @@
 uniform vec3 sunPosition;
 uniform vec3 moonPosition;
 uniform int worldTime;
-uniform vec3 cameraPosition;
-uniform mat4 gbufferModelView;
-uniform mat4 gbufferModelViewInverse;
-uniform mat4 gbufferProjection;
-uniform mat4 gbufferProjectionInverse;
- 
-varying vec2 lmcoord;
+
 varying vec2 texcoord;
 varying vec3 lightPosition;
 varying float extShadow;
@@ -21,8 +15,7 @@ varying float extShadow;
  
 void main() {
     gl_Position = ftransform();
-    texcoord = (gl_TextureMatrix[0] * gl_MultiTexCoord0).xy;
-	lmcoord  = (gl_TextureMatrix[1] * gl_MultiTexCoord1).xy;
+    texcoord = gl_MultiTexCoord0.xy;
     if(worldTime >= SUNRISE - FADE_START && worldTime <= SUNRISE + FADE_START)
     {
         extShadow = 0.0;
