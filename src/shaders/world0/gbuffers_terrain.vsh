@@ -30,9 +30,9 @@ out vec4 tint;
 void main() {
     vec3 position = vaPosition;
     gl_Position = projectionMatrix * (modelViewMatrix * vec4(vaPosition + chunkOffset, 1.0));
-    texcoord    = (textureMatrix * vec4(vaUV0, 0.0, 1.0)).xy;
-	lmcoord     = vaUV2 * (1.0 / 256.0) + (1.0 / 32.0);
-	tint        = vaColor;
+    texcoord = (textureMatrix * vec4(vaUV0, 0.0, 1.0)).xy;
+	lmcoord = vaUV2 * (1.0 / 256.0) + (1.0 / 32.0);
+	tint = vaColor;
 	#ifdef WavingPlants
     if((mc_Entity.x == 31.0 || mc_Entity.x == 141.0 || mc_Entity.x == 142.0 || mc_Entity.x == 59.0 || mc_Entity.x == 127.0|| mc_Entity.x == 32.0 || mc_Entity.x == 37.0 || mc_Entity.x == 38.0 || mc_Entity.x == 115.0 || mc_Entity.x == 6.0 || mc_Entity.x == 39.0 ||
 mc_Entity.x == 40.0 || mc_Entity.x == 104.0 || mc_Entity.x == 105.0) && vaUV0.t < mc_midTexCoord.t)
@@ -43,7 +43,7 @@ mc_Entity.x == 40.0 || mc_Entity.x == 104.0 || mc_Entity.x == 105.0) && vaUV0.t 
     float reset = cos(noise.z * 10.0 + time * 0.1);
     reset = max( reset * reset, max(rainStrength, 0.1));
     gl_Position.x += sin(noise.x * 10.0 + time) * WavingPlantsSpeed * reset * maxStrength;
-    gl_Position.z += sin(noise.y * 10.0 + time) * WavingPlantsSpeed * reset * maxStrength;
+    //gl_Position.z += sin(noise.z * 10.0 + time) * WavingPlantsSpeed * reset * maxStrength;
 }
 #endif
 #ifdef WavingLeaves
@@ -55,7 +55,7 @@ if(mc_Entity.x == 18.0 || mc_Entity.x == 106.0 || mc_Entity.x == 161.0 || mc_Ent
     float reset = cos(noise.z * 10.0 + time * 0.1);
     reset = max( reset * reset, max(rainStrength, 0.1));
     gl_Position.x += sin(noise.x * 10.0 + time) * WavingLeavesSpeed * reset * maxStrength;
-    gl_Position.z += sin(noise.y * 10.0 + time) * WavingLeavesSpeed * reset * maxStrength;
+    //gl_Position.z += sin(noise.z * 10.0 + time) * WavingLeavesSpeed * reset * maxStrength;
 }
 #endif
 }
