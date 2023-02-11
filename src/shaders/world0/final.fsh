@@ -97,7 +97,7 @@ vec3 uncharted2Tonemap(vec3 x) {
 
 #ifdef Lensflare
 vec3 lensFlare(vec3 color, vec2 uv) {
-    if(sunVisibility <= 0.0)
+    if(sunVisibility <= 0.0 || rainStrength >= 0.3)
     return color;
     LENS_FLARE(color, uv, lf1Pos, LF1SIZE, LF1COLOR);
     LENS_FLARE(color, uv, lf2Pos, LF2SIZE, LF2COLOR);

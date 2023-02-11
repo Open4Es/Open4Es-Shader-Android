@@ -1,14 +1,14 @@
 #version 150
 
-uniform mat4 modelViewMatrix;
-uniform mat4 projectionMatrix;
-//uniform mat4 textureMatrix = mat4(1.0);
-uniform mat4 textureMatrix;
-
 in ivec2 vaUV2;
 in vec2 vaUV0;
 in vec3 vaPosition;
 in vec4 vaColor;
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+//uniform mat4 textureMatrix = mat4(1.0);
+uniform mat4 textureMatrix;
 
 out vec2 lmcoord;
 out vec2 texcoord;
